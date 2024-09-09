@@ -6,7 +6,9 @@ namespace Dev_backend.Controllers
     {
         public IActionResult Index()
         {
+            // validate username
             return View();
         }
+
     }
 }
